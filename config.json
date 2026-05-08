@@ -1,0 +1,41 @@
+{
+  "api_keys": {
+    "openai": "YOUR_OPENAI_API_KEY",
+    "anthropic": "YOUR_ANTHROPIC_API_KEY",
+    "google_gemini": "YOUR_GOOGLE_GEMINI_API_KEY",
+    "alpaca_key": "YOUR_ALPACA_KEY",
+    "alpaca_secret": "YOUR_ALPACA_SECRET",
+    "upwork_token": "YOUR_UPWORK_TOKEN",
+    "fiverr_api": "YOUR_FIVERR_API_KEY"
+  },
+  "ai_models": {
+    "primary": "gpt-4",
+    "secondary": "claude-3-opus",
+    "tertiary": "gemini-pro",
+    "rotation_interval_hours": 4
+  },
+  "daily_schedule": {
+    "00:00-06:00": "trading",
+    "06:00-12:00": "freelancing",
+    "12:00-18:00": "content_creation",
+    "18:00-24:00": "web_building"
+  },
+  "pressure_settings": {
+    "daily_target": 100,
+    "weekly_target": 500,
+    "monthly_target": 2000,
+    "penalty_multiplier": 1.5,
+    "stress_level_threshold": 80
+  },
+  "earnings": {
+    "freelance_rate": 50,
+    "trading_target": 200,
+    "content_rate": 25,
+    "automation_markup": 3.0
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/system.log",
+    "console": true
+  }
+}
